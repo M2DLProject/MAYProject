@@ -1,6 +1,11 @@
+import ups.m2dl.sma.system.environnement.interfaces.IgetRoom
+import ups.m2dl.sma.system.environnement.interfaces.IsetRoom
 
 namespace ups.m2dl.system.components.environment {
 	ecosystem Environment {
-		
+		species Room(Identifier : int){
+			provides getRoom : IgetRoom
+			provides setRoom : IsetRoom
+		}
 	}
 }
