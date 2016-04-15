@@ -1,0 +1,14 @@
+import ups.m2dl.sma.system.components.gui.Interface
+import ups.m2dl.sma.system.components.university.University
+import ups.m2dl.system.components.environment.Environment
+import ups.m2dl.system.components.services.Services
+
+namespace ups.m2dl.sma.system.components.system {
+	component System {
+		
+		part environment : Environment
+		part services : Services
+		part university : University
+		part interfaces : Interface
+	}
+}

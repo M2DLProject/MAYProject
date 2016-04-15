@@ -1,0 +1,6 @@
+
+namespace ups.m2dl.system.components.environment {
+	ecosystem Environment {
+		
+	}
+}

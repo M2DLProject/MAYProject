@@ -1,0 +1,7 @@
+
+namespace ups.m2dl.sma.system.components.gui {
+	component Interface {
+		
+	}
+	
+}
